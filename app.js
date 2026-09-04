@@ -23,14 +23,25 @@ function formatRupiah(number) {
   }).format(number);
 }
 
-// Inisialisasi
-document.addEventListener("DOMContentLoaded", () => {
+// Inisialisasi aman (kompatibel dengan Cloudflare Rocket Loader & dynamic script loading)
+function initApp() {
+  const data = window.MERCHANTS_DATA || (typeof MERCHANTS_DATA !== "undefined" ? MERCHANTS_DATA : null);
+  if (!data || !Array.isArray(data)) {
+    setTimeout(initApp, 50);
+    return;
+  }
   renderMerchantTabs();
   renderProducts();
   updateCartBadge();
   initEventListeners();
   renderRecap();
-});
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initApp);
+} else {
+  initApp();
+}
 
 // Event Listeners
 function initEventListeners() {

@@ -1,5 +1,5 @@
-// Data 7 Merchant PO Internal Kantor
-const MERCHANTS_DATA = [
+// Data 8 Merchant PO Internal Kantor
+window.MERCHANTS_DATA = [
   {
     id: "jajan-nia",
     name: "Jajan Pedes-Pedes",
@@ -657,3 +657,4 @@ const MERCHANTS_DATA = [
     ]
   }
 ];
+var MERCHANTS_DATA = window.MERCHANTS_DATA;
