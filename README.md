@@ -31,7 +31,7 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
 7. **🌽 Nasi Jagung Bungkus Galuh** *(Mbak Galuh)*
    - Paket Nasi Jagung Lengkap sarapan @Rp 7.000.
    - Pembayaran: BCA 0620564176 a.n. Galuh Kumala Nifya.
-8. **🍠 Aparsi Keripik Mbote** *(Mas Zuhdi - Aparsi)*
+8. **🍠 Aparsi Keripik Mbote** *(Mas Apri)*
    - Keripik talas renyah rasa Chili Pedas, Asin Gurih, dan Toples.
    - **Direct Link:** Otomatis mengarahkan ke website resmi [aparsi.shop](https://aparsi.shop/).
 
