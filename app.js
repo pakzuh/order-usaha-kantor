@@ -1,11 +1,20 @@
 // Logika Aplikasi Web Order PO Internal Teman Kantor
 
+function safeGetJSON(key, fallback) {
+  try {
+    const val = localStorage.getItem(key);
+    return val ? JSON.parse(val) : fallback;
+  } catch (e) {
+    return fallback;
+  }
+}
+
 // State
 let state = {
   activeMerchant: "all",
   searchQuery: "",
-  cart: JSON.parse(localStorage.getItem("po_cart") || "[]"),
-  savedOrders: JSON.parse(localStorage.getItem("po_orders") || "[]"),
+  cart: safeGetJSON("po_cart", []),
+  savedOrders: safeGetJSON("po_orders", []),
   currentProductModal: null,
   activeView: "menu", // 'menu' | 'recap'
   buyerName: localStorage.getItem("po_buyer_name") || "",
@@ -131,8 +140,11 @@ function renderProducts() {
 
   // Update banner jika spesifik merchant
   if (merchantBanner) {
-      merchantBanner.classList.remove("hidden");
-      if (current.isExternalWeb) {
+    if (state.activeMerchant !== "all") {
+      const current = MERCHANTS_DATA.find((m) => m.id === state.activeMerchant);
+      if (current) {
+        merchantBanner.classList.remove("hidden");
+        if (current.isExternalWeb) {
         merchantBanner.innerHTML = `
           <div class="bg-gradient-to-r from-red-50 to-amber-50 border border-red-200 rounded-2xl p-4 sm:p-5 mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div class="flex items-start gap-3.5">
@@ -191,6 +203,9 @@ function renderProducts() {
     } else {
       merchantBanner.classList.add("hidden");
     }
+  } else {
+    merchantBanner.classList.add("hidden");
+  }
   }
 
   let fullHtml = "";
