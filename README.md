@@ -50,5 +50,6 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
 
 ## 🚀 Deployment
 
-- **GitHub Repository:** `https://github.com/ZuhdiBIDea/Order-usaha-kantor`
-- **Cloudflare Pages / Custom Domain:** `ayo.rakyat.space`
+- **GitHub Repository:** `https://github.com/pakzuh/order-usaha-kantor`
+- **Cloudflare Pages / Custom Domain:** `https://ayo.rakyat.space`
+- **Status:** Active & Connected (Auto-deploy enabled)
