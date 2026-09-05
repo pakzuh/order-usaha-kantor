@@ -1,4 +1,4 @@
-# 🛍️ PO Teman Kantor — Portal Order & Pre-Order Internal Hub
+# 🛍️ AYO!! — Portal Order & Pre-Order Internal Hub
 
 Portal web pemesanan dan katalog pre-order terpadu untuk usaha rekan-rekan kantor di Dea Bakery.
 Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp tertimpa, hitungan total otomatis, kustomisasi varian (level pedas, porsi nasi, topping), salin nomor rekening instan, dan generator pesan WhatsApp siap kirim.
