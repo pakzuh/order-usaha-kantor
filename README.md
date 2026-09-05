@@ -15,7 +15,7 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
 2. **🍢 Street Food & Cemilan Devri** *(Mas Devri - Ocktoral Devriedo)*
    - Tahu Kocek, Mix Tempura dengan **Level Pedas Cabai 0–6**, Porsi 5K/10K, Pentol Oseng, Pentol Kuah, Pisgor Wijen, Tan-Suke, Tan-Gung, Tahu Isi.
    - Pembayaran: BCA 4391182358 / BRI a.n. Ocktoral Devriedo Nugroho.
-3. **🍛 Nasi Padang Keluarga Dio/Faldo** *(Mas Faldo Fajri Afrinanto)*
+3. **🍛 Seranai Minang** *(Mas Faldo)*
    - Nasi Rendang Daging, Nasi Ayam Balado, Nasi Telur Dadar Tebal.
    - Pilihan porsi (Nasi Normal / Setengah / Tanpa Nasi -5k) & potongan ayam.
 4. **🍝 Western & Pasta Celaket** *(Mbak Kenomie)*

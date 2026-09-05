@@ -339,8 +339,8 @@ window.MERCHANTS_DATA = [
   },
   {
     id: "naspad-faldo",
-    name: "Nasi Padang Keluarga Faldo/Dio",
-    owner: "Mas Faldo Fajri Afrinanto / Dio",
+    name: "Seranai Minang",
+    owner: "Mas Faldo (Faldo Fajri Afrinanto)",
     tagline: "Masakan Padang autentik resep orang tua penuh cita rasa rempah",
     category: "Makanan Berat / Makan Siang",
     phone: "6285113662505",
