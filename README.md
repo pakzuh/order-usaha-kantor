@@ -22,7 +22,7 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
 4. **🍝 Western & Pasta Celaket** *(Mbak Kenomie)*
    - Spagetti Bakar Celaket (Sosis & Beef Patty) + Extra Mozzarella (+3k).
    - Makaroni Schotel Panggang & Tahu Walik Kornet Bolognese (isi 4).
-   - Pembayaran: BCA 1200772144 a.n. Kenomie Zahwa.
+   - WA PIC: 0822-4751-9485. Pembayaran: BCA 1200772144 a.n. Kenomie Zahwa.
 5. **🍦 Gabin Ice Cream & Wellness** *(Mbak Giani)*
    - Gabin Ice Cream Sandwich 4 rasa @13k & Sesi Mat Pilates Private Internal.
    - Pembayaran: BCA 3310593442 a.n. Giani Kirana.
