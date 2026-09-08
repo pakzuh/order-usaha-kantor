@@ -220,7 +220,7 @@ window.MERCHANTS_DATA = [
     owner: "Mas Devri (Ocktoral Devriedo)",
     tagline: "Tahu Kocek level pedas, Pentol Oseng, Pisgor Wijen & Ketan",
     category: "Street Food & Cemilan",
-    phone: "6289625925959",
+    phone: "628970305152",
     payment: {
       bank: "BCA",
       accountNumber: "4391182358",

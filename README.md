@@ -14,7 +14,7 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
    - Pembayaran: BCA 4391182081 a.n. Trisnia Siswanti / QRIS.
 2. **🍢 Street Food & Cemilan Devri** *(Mas Devri - Ocktoral Devriedo)*
    - Tahu Kocek, Mix Tempura dengan **Level Pedas Cabai 0–6**, Porsi 5K/10K, Pentol Oseng, Pentol Kuah, Pisgor Wijen, Tan-Suke, Tan-Gung, Tahu Isi.
-   - Pembayaran: BCA 4391182358 / BRI a.n. Ocktoral Devriedo Nugroho.
+   - WA PIC: 0897-0305-152. Pembayaran: BCA 4391182358 / BRI a.n. Ocktoral Devriedo Nugroho.
 3. **🍛 Masakan Padang Ampera Serunai** *(Mas Faldo)*
    - Masakan Padang autentik sejak 2005 (Purwodadi, Blimbing Malang). WA PIC Faldo: 0851-1366-2505.
    - Nasi Ayam (Goreng/Gulai/Balado), Nasi Rendang Daging, Kikil, Limpa, Hati Sapi, Usus, Otak, Babat, Rempelo Ati, Nasi Ikan, Peyek Udang, Nasi Telor Dadar/Balado, Perkedel Kentang.
