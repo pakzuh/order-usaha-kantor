@@ -545,61 +545,235 @@ window.MERCHANTS_DATA = [
   },
   {
     id: "naspad-faldo",
-    name: "Seranai Minang",
-    owner: "Mas Faldo (Faldo Fajri Afrinanto)",
-    tagline: "Masakan Padang autentik resep orang tua penuh cita rasa rempah",
+    name: "Masakan Padang Ampera Serunai",
+    owner: "Mas Faldo (Ampera Serunai)",
+    tagline: "Rasa Minang Otentik Sejak 2005 • Purwodadi, Blimbing Malang",
     category: "Makanan Berat / Makan Siang",
-    phone: "6285113662505",
+    phone: "6281230645688",
     payment: {
-      bank: "BCA",
-      accountNumber: "Hubungi Penjual / Tunai",
-      accountName: "Faldo Fajri Afrinanto",
-      qrisAvailable: false,
+      bank: "BCA / Tunai",
+      accountNumber: "0812-3064-5688 (Hubungi Penjual)",
+      accountName: "Masakan Padang Ampera Serunai",
+      qrisAvailable: true,
     },
     status: "open",
-    schedule: "Order max 09.30 WIB | Pengantaran ~11.00 WIB",
+    schedule: "Buka 10.00 – 22.00 WIB (Tutup Hari Jumat)",
     avatar: "🍛",
-    badgeColor: "bg-emerald-600",
+    badgeColor: "bg-amber-700",
     products: [
+      // 1. Menu Ayam
       {
-        id: "padang-1",
-        name: "Nasi Rendang Daging Sapi",
+        id: "serunai-1",
+        name: "Nasi Ayam Goreng",
         price: 18000,
-        category: "Menu Utama",
-        description: "Daging rendang empuk bumbu rempah Padang meresap + sambal hijau & daun singkong",
+        category: "Menu Ayam",
+        description: "Ayam goreng bumbu rempah Padang meresap disajikan dengan nasi hangat, sambal & sayur",
         options: [
-          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, -5000] },
-          { name: "Tambahan Telur", choices: ["Tanpa Telur Tambahan", "Tambah Telur Dadar (+5K)"], priceDiff: [0, 5000] }
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Potongan Ayam", choices: ["Bebas / Campur", "Paha Atas", "Paha Bawah", "Dada", "Sayap"] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
         ]
       },
       {
-        id: "padang-2",
+        id: "serunai-2",
+        name: "Nasi Ayam Gulai",
+        price: 18000,
+        category: "Menu Ayam",
+        description: "Ayam kuah gulai Minang kaya rempah disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Potongan Ayam", choices: ["Bebas / Campur", "Paha Atas", "Paha Bawah", "Dada", "Sayap"] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-3",
         name: "Nasi Ayam Balado",
         price: 18000,
-        category: "Menu Utama",
-        description: "Ayam goreng berbalut balado merah pedas gurih khas Minang + sayur singkong",
+        category: "Menu Ayam",
+        description: "Ayam goreng berbalut balado merah pedas gurih khas Minang disajikan dengan nasi hangat & sayur",
         options: [
-          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, -5000] },
-          { name: "Potongan Ayam", choices: ["Paha Bawah", "Paha Atas", "Dada", "Sayap / Bebas"] },
-          { name: "Tambahan Telur", choices: ["Tanpa Telur Tambahan", "Tambah Telur Dadar (+5K)"], priceDiff: [0, 5000] }
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Potongan Ayam", choices: ["Bebas / Campur", "Paha Atas", "Paha Bawah", "Dada", "Sayap"] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+
+      // 2. Menu Daging & Jeroan Sapi
+      {
+        id: "serunai-4",
+        name: "Nasi Rendang Daging",
+        price: 18000,
+        category: "Menu Daging & Jeroan",
+        description: "Daging rendang empuk bumbu rempah Padang meresap disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
         ]
       },
       {
-        id: "padang-3",
-        name: "Nasi Telur Dadar Tebal",
+        id: "serunai-5",
+        name: "Nasi Kikil",
+        price: 20000,
+        category: "Menu Daging & Jeroan",
+        description: "Kikil sapi empuk bumbu gulai gurih berempah khas Padang disajikan dengan nasi hangat & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-6",
+        name: "Nasi Limpa",
+        price: 16000,
+        category: "Menu Daging & Jeroan",
+        description: "Limpa sapi empuk bumbu rempah Padang disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-7",
+        name: "Nasi Hati Sapi",
+        price: 16000,
+        category: "Menu Daging & Jeroan",
+        description: "Hati sapi bumbu rempah Padang disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-8",
+        name: "Nasi Usus",
+        price: 16000,
+        category: "Menu Daging & Jeroan",
+        description: "Usus sapi bumbu gulai khas Minang disajikan dengan nasi hangat & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-9",
+        name: "Nasi Otak",
+        price: 17000,
+        category: "Menu Daging & Jeroan",
+        description: "Gulai otak sapi lembut gurih bumbu Minang disajikan dengan nasi hangat & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-10",
+        name: "Nasi Babat",
+        price: 16000,
+        category: "Menu Daging & Jeroan",
+        description: "Babat sapi empuk bumbu rempah khas Padang disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-11",
+        name: "Nasi Rempelo Ati",
+        price: 15000,
+        category: "Menu Daging & Jeroan",
+        description: "Rempelo ati bumbu khas disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+
+      // 3. Menu Ikan & Seafood
+      {
+        id: "serunai-12",
+        name: "Nasi Ikan",
+        price: 16000,
+        category: "Menu Ikan & Seafood",
+        description: "Ikan bumbu goreng/gulai khas Padang gurih disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+      {
+        id: "serunai-13",
+        name: "Nasi Peyek Udang",
+        price: 16000,
+        category: "Menu Ikan & Seafood",
+        description: "Peyek udang renyah gurih khas Minang disajikan dengan nasi hangat, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi (Lauk Saja)"], priceDiff: [0, 0, 0, -4000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] },
+          { name: "Tambahan Lauk", choices: ["Tanpa Tambahan", "Tambah Telur Dadar (+5K)", "Tambah Telur Balado (+5K)", "Tambah Perkedel (+4K)"], priceDiff: [0, 5000, 5000, 4000] }
+        ]
+      },
+
+      // 4. Menu Simpel & Add-on
+      {
+        id: "serunai-14",
+        name: "Nasi Telor",
         price: 12000,
-        category: "Menu Hemat",
-        description: "Telur dadar khas Padang tebal berempah, daun bawang, sambal ijo & gulai kol",
+        category: "Menu Simpel",
+        description: "Nasi putih hangat dengan telur dadar khas Padang tebal berempah, sambal & sayur singkong",
         options: [
-          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Setengah", "Tanpa Nasi"], priceDiff: [0, 0, -3000] }
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi"], priceDiff: [0, 0, 0, -3000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] }
         ]
       },
       {
-        id: "padang-4",
+        id: "serunai-15",
+        name: "Nasi Telor Balado",
+        price: 10000,
+        category: "Menu Simpel",
+        description: "Nasi hangat dengan telur balado bumbu pedas manis gurih khas Minang & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi"], priceDiff: [0, 0, 0, -3000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Balado (Standar)", "Sambal Hijau", "Campur Sambal", "Tanpa Sambal / Pisah"] }
+        ]
+      },
+      {
+        id: "serunai-16",
+        name: "Nasi Perkedel Kentang",
+        price: 10000,
+        category: "Menu Simpel",
+        description: "Nasi dengan perkedel kentang Padang lembut gurih, kuah gulai, sambal & sayur",
+        options: [
+          { name: "Porsi Nasi", choices: ["Nasi Normal", "Nasi Banyak", "Nasi Setengah", "Tanpa Nasi"], priceDiff: [0, 0, 0, -3000] },
+          { name: "Pilihan Sambal", choices: ["Sambal Hijau (Standar)", "Sambal Merah Balado", "Campur Sambal", "Tanpa Sambal / Pisah"] }
+        ]
+      },
+      {
+        id: "serunai-17",
         name: "Extra Telur Dadar Padang",
         price: 5000,
-        category: "Add-on / Lauk",
-        description: "1 porsi telur dadar tebal khas Padang",
+        category: "Menu Simpel",
+        description: "1 porsi telur dadar tebal khas Padang berempah",
+        hasLevel: false
+      },
+      {
+        id: "serunai-18",
+        name: "Extra Perkedel Kentang",
+        price: 4000,
+        category: "Menu Simpel",
+        description: "1 buah perkedel kentang Padang gurih lembut",
         hasLevel: false
       }
     ]
