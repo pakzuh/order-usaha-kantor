@@ -16,7 +16,7 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
    - Tahu Kocek, Mix Tempura dengan **Level Pedas Cabai 0–6**, Porsi 5K/10K, Pentol Oseng, Pentol Kuah, Pisgor Wijen, Tan-Suke, Tan-Gung, Tahu Isi.
    - WA PIC: 0897-0305-152. Pembayaran: BCA 4391182358 / BRI a.n. Ocktoral Devriedo Nugroho.
 3. **🍛 Masakan Padang Ampera Serunai** *(Mas Faldo)*
-   - Masakan Padang autentik sejak 2005 (Purwodadi, Blimbing Malang). WA PIC Faldo: 0851-1366-2505.
+   - Masakan Padang autentik sejak 2005 (Purwodadi, Blimbing Malang). WA PIC Faldo: 0822-3469-4154.
    - Nasi Ayam (Goreng/Gulai/Balado), Nasi Rendang Daging, Kikil, Limpa, Hati Sapi, Usus, Otak, Babat, Rempelo Ati, Nasi Ikan, Peyek Udang, Nasi Telor Dadar/Balado, Perkedel Kentang.
    - Pilihan porsi nasi (Normal, Banyak, Setengah, Tanpa Nasi -4k), sambal ijo/balado, dan potongan ayam.
 4. **🍝 Western & Pasta Celaket** *(Mbak Kenomie)*

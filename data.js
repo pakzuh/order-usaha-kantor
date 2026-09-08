@@ -343,7 +343,7 @@ window.MERCHANTS_DATA = [
     owner: "Mas Faldo (Faldo Fajri Afrinanto)",
     tagline: "Rasa Minang Otentik Sejak 2005 • Purwodadi, Blimbing Malang",
     category: "Makanan Berat / Makan Siang",
-    phone: "6285113662505",
+    phone: "6282234694154",
     payment: {
       bank: "BCA / Tunai",
       accountNumber: "Hubungi Mas Faldo / Tunai",
