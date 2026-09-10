@@ -26,9 +26,9 @@ Situs ini dirancang untuk memudahkan pemesanan tanpa risiko list chat WhatsApp t
 5. **🍦 Gabin Ice Cream & Wellness** *(Mbak Giani)*
    - Gabin Ice Cream Sandwich 4 rasa @13k & Sesi Mat Pilates Private Internal.
    - Pembayaran: BCA 3310593442 a.n. Giani Kirana.
-6. **🫧 Daily Wash Laundry & Sabun** *(Mas Zuhdi)*
-   - Botol sampel 220ml, Refill Jeriken 1L & 5L (Premium & Ekonomis).
-   - Fasilitas pinjam jeriken gratis khusus internal kantor.
+6. **🧺 Daily Wash** *(Pak Zuhdi)*
+   - Bersih. Wangi. Setiap Hari. Sabun Cuci Baju (1L @8K, 5L @40K), Sabun Cuci Piring (1L @8K, 5L @38K), Pelembut Pakaian (1L @7K, 5L @35K), Sabun Cuci Tangan (1L @9K, 5L @45K).
+   - WA PIC: 0858-9585-3569. Pembayaran: BCA / Tunai.
 7. **🌽 Nasi Jagung Bungkus Galuh** *(Mbak Galuh)*
    - Paket Nasi Jagung Lengkap sarapan @Rp 7.000.
    - Pembayaran: BCA 0620564176 a.n. Galuh Kumala Nifya.

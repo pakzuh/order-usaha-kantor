@@ -692,60 +692,60 @@ window.MERCHANTS_DATA = [
   },
   {
     id: "daily-wash",
-    name: "Daily Wash Laundry & Home Care",
-    owner: "Mas Zuhdi",
-    tagline: "Sabun cuci pakaian konsentrat premium, hemat, wangi & bersih maksimal",
-    category: "Household & Laundry",
-    phone: "6281234567890",
+    name: "Daily Wash",
+    owner: "Pak Zuhdi",
+    tagline: "Bersih. Wangi. Setiap Hari. • Pilihan Cermat & Hemat Kebersihan Harian",
+    category: "Household & Kebersihan",
+    phone: "6285895853569",
     payment: {
-      bank: "BCA",
-      accountNumber: "Transfer / Tunai Saat Terima",
-      accountName: "Zuhdi Daily Wash",
-      qrisAvailable: false,
+      bank: "BCA / Tunai",
+      accountNumber: "0858-9585-3569 (Hubungi Pak Zuhdi)",
+      accountName: "Pak Zuhdi",
+      qrisAvailable: true,
     },
     status: "open",
-    schedule: "Ready Stok Kantor | Bebas Pinjam Jeriken Khusus Karyawan",
-    avatar: "🫧",
-    badgeColor: "bg-cyan-600",
+    schedule: "Ready Stok | Tersedia Kemasan 1 Liter & 5 Liter",
+    avatar: "🧺",
+    badgeColor: "bg-blue-600",
     products: [
       {
-        id: "wash-1",
-        name: "Sampel Botol Kecil 220ml",
-        price: 2500,
-        category: "Sampel Coba",
-        description: "Botol praktis 220ml cukup untuk cuci 3 hari s/d 1 minggu",
-        hasLevel: false
+        id: "daily-1",
+        name: "Sabun Cuci Baju Daily Wash",
+        price: 8000,
+        category: "Cuci Baju",
+        description: "Bantu bersihkan pakaian hingga ke serat kain, wangi segar tahan lama sepanjang hari, cocok untuk cucian harian & aman di tangan.",
+        options: [
+          { name: "Pilihan Ukuran", choices: ["1 Liter (Rp 8.000)", "5 Liter Jeriken Jumbo (Rp 40.000)"], priceDiff: [0, 32000] }
+        ]
       },
       {
-        id: "wash-2",
-        name: "Refill Jeriken 1 Liter",
+        id: "daily-2",
+        name: "Sabun Cuci Piring Daily Wash",
+        price: 8000,
+        category: "Cuci Piring",
+        description: "Bantu angkat lemak membandel di piring & alat masak, busa melimpah, hemat pemakaian, aroma segar, tangan tetap nyaman.",
+        options: [
+          { name: "Pilihan Ukuran", choices: ["1 Liter (Rp 8.000)", "5 Liter Jeriken Jumbo (Rp 38.000)"], priceDiff: [0, 30000] }
+        ]
+      },
+      {
+        id: "daily-3",
+        name: "Pelembut Pakaian (Softener)",
+        price: 7000,
+        category: "Pelembut Pakaian",
+        description: "Pakaian terasa lebih lembut di kulit, wangi lebih tahan lama walau sudah kering, serat kain lebih rapi & gampang disetrika.",
+        options: [
+          { name: "Pilihan Ukuran", choices: ["1 Liter (Rp 7.000)", "5 Liter Jeriken Jumbo (Rp 35.000)"], priceDiff: [0, 28000] }
+        ]
+      },
+      {
+        id: "daily-4",
+        name: "Sabun Cuci Tangan (Handsoap)",
         price: 9000,
-        category: "Refill 1 Liter",
-        description: "Sabun cuci baju konsentrat wangi tahan lama",
+        category: "Cuci Tangan",
+        description: "Bersihkan tangan dari kuman & kotoran harian, lembut di kulit tidak bikin kering, wangi segar setiap kali cuci tangan.",
         options: [
-          { name: "Formula", choices: ["Premium (+Parfum Wangi)", "Ekonomis (Non-Parfum)"], priceDiff: [0, -1500] },
-          { name: "Opsi Wadah", choices: ["Bawa Wadah Sendiri / Pinjam Jeriken Kantor (Gratis)", "Beli Jeriken Baru 1L (+5K)"], priceDiff: [0, 5000] }
-        ]
-      },
-      {
-        id: "wash-3",
-        name: "Refill Jeriken 5 Liter Jumbo",
-        price: 40000,
-        category: "Refill 5 Liter",
-        description: "Pilihan paling hemat untuk persediaan keluarga di rumah",
-        options: [
-          { name: "Formula", choices: ["Premium (+Parfum Wangi)", "Ekonomis (Non-Parfum)"], priceDiff: [0, -8000] },
-          { name: "Opsi Wadah", choices: ["Bawa Wadah Sendiri / Pinjam Jeriken Kantor (Gratis)", "Beli Jeriken Baru 5L (+6K)"], priceDiff: [0, 6000] }
-        ]
-      },
-      {
-        id: "wash-4",
-        name: "Jeriken Kosong Baru",
-        price: 5000,
-        category: "Wadah",
-        description: "Jeriken tebal bersegel baru",
-        options: [
-          { name: "Ukuran", choices: ["Ukuran 1 Liter (5K)", "Ukuran 5 Liter (6K)"], priceDiff: [0, 1000] }
+          { name: "Pilihan Ukuran", choices: ["1 Liter (Rp 9.000)", "5 Liter Jeriken Jumbo (Rp 45.000)"], priceDiff: [0, 36000] }
         ]
       }
     ]
