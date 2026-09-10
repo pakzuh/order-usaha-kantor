@@ -58,6 +58,16 @@ if (document.readyState === "loading") {
 }
 
 // Event Listeners
+
+let searchTimeout;
+function debounceSearch(e) {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    state.searchQuery = e.target.value.toLowerCase();
+    renderProducts();
+  }, 300);
+}
+
 function initEventListeners() {
   const searchInput = document.getElementById("search-input");
   if (searchInput) {
