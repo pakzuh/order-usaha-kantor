@@ -1,3 +1,7 @@
+
+function saveCartToStorage() {
+  localStorage.setItem('po_cart', JSON.stringify(state.cart));
+}
 // Logika Aplikasi Web Order PO Internal Teman Kantor
 
 function safeGetJSON(key, fallback) {
@@ -57,10 +61,7 @@ if (document.readyState === "loading") {
 function initEventListeners() {
   const searchInput = document.getElementById("search-input");
   if (searchInput) {
-    searchInput.addEventListener("input", (e) => {
-      state.searchQuery = e.target.value.toLowerCase();
-      renderProducts();
-    });
+    searchInput.addEventListener("input", debounceSearch);
   }
 
   // Input profile simpan ke localstorage
@@ -1049,7 +1050,8 @@ function showToast(msg) {
   toast.classList.remove("translate-y-24", "opacity-0");
   toast.classList.add("translate-y-0", "opacity-100");
 
-  setTimeout(() => {
+  clearTimeout(window.toastTimeout);
+  window.toastTimeout = setTimeout(() => {
     toast.classList.add("translate-y-24", "opacity-0");
     toast.classList.remove("translate-y-0", "opacity-100");
   }, 3000);
@@ -1212,3 +1214,17 @@ function copyGroupRecap(merchantId) {
 
   copyToClipboard(text, "Format List WA Grup berhasil disalin!");
 }
+
+
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('back-to-top');
+  if (btn) {
+    if (window.scrollY > 300) {
+      btn.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+      btn.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      btn.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+      btn.classList.remove('opacity-100', 'translate-y-0');
+    }
+  }
+});
