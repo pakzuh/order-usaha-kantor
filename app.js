@@ -159,8 +159,8 @@ function getMerchantVisuals(merchantId) {
     },
     "aparsi-shop": {
       gradient: "from-slate-800 via-indigo-900 to-blue-950",
-      statusText: "🌐 Website",
-      statusClass: "bg-indigo-500 text-white",
+      statusText: "🟢 Buka PO",
+      statusClass: "bg-emerald-500 text-white",
       svgIllustration: `
         <svg class="absolute -right-3 -bottom-3 w-20 h-20 text-white/20 select-none pointer-events-none" fill="currentColor" viewBox="0 0 24 24">
           <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
